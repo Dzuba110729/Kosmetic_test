@@ -1,3 +1,7 @@
+html, body{
+  width: 100%;
+}
+  
   .conteiner {
     max-width: 1400px;
     margin: 0 auto;
@@ -818,6 +822,8 @@
     left: 0;
   }
 
+  
+
   .contents-img1 {
     max-width: 768px;
     height: 300px;
@@ -834,7 +840,7 @@
     }
 
   .content-img {
-    max-width: 450px;
+    max-width: 100%;
     margin: 0;
   }
 
@@ -876,12 +882,8 @@
   }
 
   .content-img2 {
-    max-width: 450px;
+    max-width: 100%;
     margin-left: auto;
-  }
-
-  .card__contact-tel {
-    margin-right: 10px;
   }
 
   .card-ferst__item-geo {
